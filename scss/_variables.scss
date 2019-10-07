@@ -101,7 +101,7 @@ $yiq-contrasted-threshold:  150 !default;
 $yiq-text-dark:             $gray-900 !default;
 $yiq-text-light:            $white !default;
 
-
+// fusv-disable
 $blue-100: tint-color($blue, 8) !default;
 $blue-200: tint-color($blue, 6) !default;
 $blue-300: tint-color($blue, 4) !default;
@@ -201,6 +201,7 @@ $cyan-600: shade-color($cyan, 2) !default;
 $cyan-700: shade-color($cyan, 4) !default;
 $cyan-800: shade-color($cyan, 6) !default;
 $cyan-900: shade-color($cyan, 8) !default;
+// fusv-enable
 
 // Characters which are escaped by the escape-svg function
 $escaped-characters: (
